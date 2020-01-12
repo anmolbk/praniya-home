@@ -1,7 +1,7 @@
 ---
 templateKey: pricing-page
 title: Pricing
-meta_title: Pricing | Gatsby Starter Business
+meta_title: Pricing | Praniya Technolgies LLP
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
