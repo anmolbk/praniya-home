@@ -10,7 +10,8 @@
     "serve": "gatsby serve",
     "lint": "eslint --ext js,jsx --ignore-path .gitignore .",
     "lint:fix": "eslint --ext js,jsx --ignore-path .gitignore . --fix",
-    "clean": "rm -rf public/ .cache/"
+    "clean": "rm -rf public/ .cache/",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
   "repository": "https://github.com/v4iv/gatsby-starter-business",
   "author": "Vaibhav Sharma <vaibhavsharmaatwork@gmail.com>",
@@ -70,6 +71,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^2.2.0",
     "remark-cli": "^7.0.0",
     "remark-preset-lint-recommended": "^3.0.3"
   }
