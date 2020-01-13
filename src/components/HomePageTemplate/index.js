@@ -9,9 +9,13 @@ const HomePageTemplate = ({
   heading,
   description,
   offerings,
+  heading_ts,
+  ts,
+  heading_why,
+  why,
   meta_title,
   meta_description,
-  testimonials,
+  // testimonials,
 }) => (
   <div>
     <Helmet>
@@ -47,8 +51,20 @@ const HomePageTemplate = ({
                   <p>{description}</p>
                 </div>
                 <Offerings gridItems={offerings.blurbs} />
-                <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2>
-                <Testimonials testimonials={testimonials} />
+                <div>
+                  <h3 className='has-text-weight-semibold is-size-2'>
+                    {heading_ts}
+                  </h3>
+                </div>
+                <Offerings gridItems={ts.blurbs} />
+                <div>
+                  <h3 className='has-text-weight-semibold is-size-2'>
+                    {heading_why}
+                  </h3>
+                </div>
+                <Offerings gridItems={why.blurbs} />
+                {/* <h2 className='has-text-weight-semibold is-size-2'>Testimonials</h2> */}
+                {/* <Testimonials testimonials={testimonials} /> */}
               </div>
             </div>
           </div>

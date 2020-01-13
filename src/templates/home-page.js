@@ -16,7 +16,11 @@ const HomePage = ({ data }) => {
         heading={frontmatter.heading}
         description={frontmatter.description}
         offerings={frontmatter.offerings}
-        testimonials={frontmatter.testimonials}
+        heading_ts={frontmatter.heading_ts}
+        ts={frontmatter.ts}
+        heading_why={frontmatter.heading_why}
+        why={frontmatter.why}
+        // testimonials={frontmatter.testimonials}
       />
     </Layout>
   )
@@ -47,11 +51,25 @@ export const pageQuery = graphql`
             text
           }
         }
-        testimonials {
-          author
-          quote
+        heading_ts
+        ts {
+          blurbs {
+            image
+            text
+          }
+        }
+        heading_why
+        why {
+          blurbs {
+            image
+            text
+          }
         }
       }
     }
   }
 `
+        // testimonials {
+        //   author
+        //   quote
+        // }
