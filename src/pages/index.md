@@ -1,12 +1,9 @@
 ---
 templateKey: 'home-page'
-title: end-to-end solutions for small and medium businesses
+title: End-to-end solutions for small and medium businesses
 meta_title: Home | Praniya Technologies
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  Praniya Technologies. End-to-end solutions for small and medium businesses.
 heading: Offerings
 description: >-
 offerings:

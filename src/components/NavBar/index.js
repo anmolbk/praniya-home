@@ -34,12 +34,12 @@ const NavBar = ({ toggleNavbar, isActive }) => (
             <Link className='navbar-item' to='/about'>
                             About
             </Link>
-            <Link className='navbar-item' to='/pricing'>
+            {/* <Link className='navbar-item' to='/pricing'>
                             Pricing
             </Link>
             <Link className='navbar-item' to='/blog'>
                             Blog
-            </Link>
+            </Link> */}
             <div className='navbar-item'>
               <div className='field is-grouped'>
                 <p className='control'>
