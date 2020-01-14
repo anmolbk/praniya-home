@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import { ContactForm } from '../forms'
 
-const ContactPageTemplate = ({ title, subtitle, meta_title, meta_description }) => {
+const ContactPageTemplate = ({ title, subtitle, meta_title, meta_description, description }) => {
   return <div>
     <Helmet>
       <title>{meta_title}</title>
@@ -29,7 +29,18 @@ const ContactPageTemplate = ({ title, subtitle, meta_title, meta_description }) 
     </section>
     <section className='section'>
       <div className='container'>
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <div className='section'>
+          <div className='columns'>
+            <div className='column is-10 is-offset-1'>
+              <div className='content'>
+                <div>
+                    <div dangerouslySetInnerHTML={{ __html:description }} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </div>

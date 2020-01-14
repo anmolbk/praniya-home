@@ -4,8 +4,7 @@ title: Contact Us
 subtitle: We'd Love To Help You, Feel Free To Drop A Mail
 meta_title: Contact Us | Praniya Technologies LLP
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  Praniya Technologies. End-to-end solutions for small and medium businesses.
+description: >-
+  Please reach out to us on <a href="mailto:contact@praniya.com">email</a>.
 ---
