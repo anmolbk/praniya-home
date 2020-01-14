@@ -6,9 +6,9 @@ const Offerings = ({ gridItems }) => (
     {gridItems.map(item => (
       <div key={item.image} className='column is-6' style={{ borderRadius: '5px' }}>
         <section className='section'>
-          <p className='has-text-centered'>
+          {/* <p className='has-text-centered'>
             <img alt='' src={item.image} />
-          </p>
+          </p> */}
           <p><div dangerouslySetInnerHTML={{ __html: item.text }} /></p>
         </section>
       </div>

@@ -29,7 +29,7 @@ const HomePageTemplate = ({
             <div className='column is-10 is-offset-1'>
               <div className='section'>
                 <h1 className='title'>
-                  {title}
+                  <div dangerouslySetInnerHTML={{ __html: title }} />
                 </h1>
               </div>
             </div>

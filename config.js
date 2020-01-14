@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Praniya Technologies', // Site title.
   siteTitleAlt: 'praniya technologies', // Alternative site title for SEO.
-  siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
+  siteLogo: '/img/logo_name.svg', // Logo used for SEO and manifest.
   siteUrl: 'https://www.praniya.com', // Domain of your website without pathPrefix.
   pathPrefix: '', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
   siteDescription: 'End-to-end software solutions for small and medium businesses.', // Website description used for RSS feeds/meta description tag.

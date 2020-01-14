@@ -23,7 +23,7 @@ class Layout extends Component {
           <title>{config.siteTitle}</title>
           <meta name='description' content={config.siteDescription} />
         </Helmet>
-        <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} />
+        <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} logo="/img/logo_symbol.svg" />
         <div id='content-wrapper'>
           {this.props.children}
         </div>
