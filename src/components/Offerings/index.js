@@ -9,7 +9,7 @@ const Offerings = ({ gridItems }) => (
           <p className='has-text-centered'>
             <img alt='' src={item.image} />
           </p>
-          <p>{item.text}</p>
+          <p><div dangerouslySetInnerHTML={{ __html: item.text }} /></p>
         </section>
       </div>
     ))}
