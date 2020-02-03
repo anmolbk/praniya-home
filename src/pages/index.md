@@ -80,11 +80,11 @@ why:
         <li>We offer consulting, design and implementation of end-to-end software solutions, taking complete ownership of the project from start to end.</li>
         <li>We endeavour to give you the best customer experience without us getting in the way.</li>
         </ul>
-# testimonials:
-#   - author: Vaibhav Sharma
-#     quote: >-
-#       Donec scelerisque magna nec condimentum porttitor. Aliquam vel diam sed diam luctus pretium. 
-#       Sed quis egestas libero. Vestibulum nec venenatis ligula. 
+testimonials:
+  - author: Piran Elavia, <a href="https://www.kipepeo.in/" target="_blank">Kipepeo</a>
+    quote: >-
+      As a small travel company with niche operations, we had unique business requirements for a software to manage our operations. Praniya patiently designed and built a software to suit our requirements. We were extremely happy with the professional manner in which not only the software was built, but also in the way we got ready support for the issues we faced. Would highly recommend them for their commitment and timely work.
+    image: /img/testimonials/piran_elavia_kipepeo.png
 #   - author: Subarashi San
 #     quote: >-
 #       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et dignissim ligula. 

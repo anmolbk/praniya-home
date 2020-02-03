@@ -20,7 +20,7 @@ const HomePage = ({ data }) => {
         ts={frontmatter.ts}
         heading_why={frontmatter.heading_why}
         why={frontmatter.why}
-        // testimonials={frontmatter.testimonials}
+        testimonials={frontmatter.testimonials}
       />
     </Layout>
   )
@@ -65,11 +65,12 @@ export const pageQuery = graphql`
             text
           }
         }
+        testimonials {
+          author
+          quote
+          image
+        }
       }
     }
   }
 `
-        // testimonials {
-        //   author
-        //   quote
-        // }
