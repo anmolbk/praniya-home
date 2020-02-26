@@ -81,12 +81,12 @@ why:
         <li>We endeavour to give you the best customer experience without us getting in the way.</li>
         </ul>
 testimonials:
+  - author: Dr. Yogesh Bendale, <a href="https://www.rasayucancerclinic.com/" target="_blank">Rasayu</a>
+    quote: >-
+      We are working in the field of oncology for more than two decades. We needed to efficiently manage and analyze huge amount of medical data in our clinics. So we decided to design a competent customized software. We met many experts, but our experience was exasperating. Then we consulted Praniya. In the very first meeting, we got enough confidence from their understanding and ability to give proper solutions. We found them to be: Patient listeners; Thorough and quick understanding of problems; Perfect and practical solutions; Value for time; Great teamwork.
+    image: /img/testimonials/dr_yogesh_bendale_rasayu.png
   - author: Piran Elavia, <a href="https://www.kipepeo.in/" target="_blank">Kipepeo</a>
     quote: >-
       As a small travel company with niche operations, we had unique business requirements for a software to manage our operations. Praniya patiently designed and built a software to suit our requirements. We were extremely happy with the professional manner in which not only the software was built, but also in the way we got ready support for the issues we faced. Would highly recommend them for their commitment and timely work.
     image: /img/testimonials/piran_elavia_kipepeo.png
-#   - author: Subarashi San
-#     quote: >-
-#       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et dignissim ligula. 
-#       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
