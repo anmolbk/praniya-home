@@ -19,7 +19,14 @@ offerings:
     - image: /img/tutorials.png
       text: >
         <h4>Business Management Solutions</h4>
-        Make your office productive from day one.
+        <ul>
+            <li>
+                Custom CRM, ERP, field sales reporting solutions.
+            </li>
+            <li>
+                Marketing automation - do much more than just bulk email promotions.
+            </li>
+        </ul>
     - image: /img/meeting-space.png
       text: >
         <h4>Digital Transformation</h4>
