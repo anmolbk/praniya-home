@@ -13,7 +13,7 @@ module.exports = {
   userTwitter: 'praniya',
   userLocation: 'Pune, India',
   userDescription: '',
-  copyright: 'Copyright © 2019-2020 Praniya Technologies LLP. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'Copyright © 2019-2023 Praniya Technologies LLP. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#00d1b2', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff', // Used for setting manifest background color.
 }
